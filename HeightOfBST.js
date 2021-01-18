@@ -20,6 +20,8 @@ function findHeight(tree) {
     }
 }
 
+module.exports = findHeight
+
 const nums = [3, 1, 4, 6, 9, 2, 5, 7]
 const letters = ['E', 'A', 'S', 'Y', 'Q', 'U', 'E', 'S', 'T', 'I', 'O', 'N']
 
@@ -29,5 +31,5 @@ nums.forEach(num => BST.insert(num))
 const BST2 = new BinarySearchTree()
 letters.forEach(letter => BST2.insert(letter))
 
-console.log(findHeight(BST))//5
-console.log(findHeight(BST2))//7
+//console.log(findHeight(BST))//5
+//console.log(findHeight(BST2))//7
